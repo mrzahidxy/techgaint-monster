@@ -1,0 +1,252 @@
+{
+  "brand": {
+    "name": "techgaint monster",
+    "monogram": "tm",
+    "tagline": "Full-Stack Solutions for Every Need",
+    "description": "We're a passionate team of developers creating scalable, innovative solutions that help businesses thrive in the digital world."
+  },
+  "navigation": [
+    { "name": "Services", "href": "#services" },
+    { "name": "Portfolio", "href": "/portfolio" },
+    { "name": "Team", "href": "#team" },
+    { "name": "Pricing", "href": "#pricing" },
+    { "name": "Contact", "href": "#contact" }
+  ],
+  "services": [
+    {
+      "icon": "Globe",
+      "title": "Frontend Development",
+      "description": "Modern, responsive web applications with cutting-edge performance.",
+      "technologies": ["React", "Next.js", "TypeScript"],
+      "color": "text-blue-500"
+    },
+    {
+      "icon": "Server",
+      "title": "Backend Development",
+      "description": "Scalable server-side solutions and robust API development.",
+      "technologies": ["Node.js", "Django", "PostgreSQL"],
+      "color": "text-green-500"
+    },
+    {
+      "icon": "Brain",
+      "title": "AI & Automation",
+      "description": "Intelligent solutions that automate workflows and enhance UX.",
+      "technologies": ["OpenAI", "LangChain", "Pinecone"],
+      "color": "text-orange-500"
+    },
+    {
+      "icon": "Smartphone",
+      "title": "Mobile Development",
+      "description": "Cross-platform mobile applications with native performance.",
+      "technologies": ["React Native", "PWA", "Flutter"],
+      "color": "text-pink-500"
+    },
+    {
+      "icon": "Code",
+      "title": "WordPress Development",
+      "description": "Custom themes, blocks, and performance-focused builds.",
+      "technologies": ["WordPress", "PHP", "ACF"],
+      "color": "text-indigo-500"
+    },
+    {
+      "icon": "Database",
+      "title": "Database Solutions",
+      "description": "Efficient data management and optimization for any scale.",
+      "technologies": ["MongoDB", "PostgreSQL", "Redis"],
+      "color": "text-purple-500"
+    }
+  ],
+  "team": [
+    {
+      "name": "Ismail Hossen",
+      "role": "Web & App Developer",
+      "bio": "Passionate about creating scalable solutions with modern technologies. Specializes in React, NextJS, React Native",
+      "image": "/placeholder.svg?height=300&width=300",
+      "skills": ["React", "React Native", "TypeScript"],
+      "social": {
+        "github": "https://github.com/ismailhossen",
+        "linkedin": "https://linkedin.com/in/ismailhossen",
+        "email": "ismail@example.com"
+      }
+    },
+    {
+      "name": "Md Mehedi Hasan",
+      "role": "Full-stack Developer",
+      "bio": "Database and API expert focused on building robust, scalable backend systems that power modern application and also Specializes AI integration.",
+      "image": "/placeholder.svg?height=300&width=300",
+      "skills": ["React", "Node", "Python", "System Design"],
+      "social": {
+        "github": "https://github.com/sarahchen",
+        "linkedin": "https://linkedin.com/in/sarahchen",
+        "email": "sarah@example.com"
+      }
+    },
+    {
+      "name": "Md Zahid Hasan",
+      "role": "Full-stack Developer",
+      "bio": "Passionate about creating scalable solutions with modern technologies. Specializes in React, Node.js",
+      "image": "/placeholder.svg?height=300&width=300",
+      "skills": ["Python", "Django", "PostgreSQL", "AWS", "DevOps"],
+      "social": {
+        "github": "https://github.com/alexrodriguez",
+        "linkedin": "https://linkedin.com/in/alexrodriguez",
+        "email": "alex@example.com"
+      }
+    }
+  ],
+  "projects": [
+    {
+      "id": "ecommerce-platform",
+      "title": "E-Commerce Platform",
+      "category": "Web",
+      "logo": "/placeholder.svg?height=40&width=40",
+      "outcome": "Increased conversion rates by 300% with sub-second page loads",
+      "kpis": ["+300% conversion", "50% faster TTFB"],
+      "technologies": ["Next.js", "PostgreSQL", "Stripe"],
+      "image": "/placeholder.svg?height=270&width=480",
+      "links": {
+        "caseStudy": "/portfolio/ecommerce-platform",
+        "live": "https://example.com"
+      },
+      "problem": "Client needed a scalable e-commerce solution to handle 10k+ daily visitors with fast checkout",
+      "approach": "Built with Next.js 14, PostgreSQL for data integrity, and Redis for caching. Implemented Stripe for payments and AI-powered product recommendations.",
+      "metrics": {
+        "Conversion Rate": "+300%",
+        "Page Load Time": "50% faster",
+        "Daily Active Users": "10,000+",
+        "Cart Abandonment": "-45%"
+      }
+    },
+    {
+      "id": "ai-content-generator",
+      "title": "AI Content Generator",
+      "category": "AI",
+      "logo": "/placeholder.svg?height=40&width=40",
+      "outcome": "Reduced content creation time by 90% while maintaining brand consistency",
+      "kpis": ["90% time saved", "95% approval rate"],
+      "technologies": ["React", "OpenAI", "LangChain"],
+      "image": "/placeholder.svg?height=270&width=480",
+      "links": {
+        "caseStudy": "/portfolio/ai-content-generator",
+        "live": "https://example.com"
+      },
+      "problem": "Marketing team spent 20+ hours weekly creating content manually with inconsistent brand voice",
+      "approach": "Developed AI-powered tool with custom GPT fine-tuning for brand voice, automated workflows, and content approval system.",
+      "metrics": {
+        "Time Savings": "90%",
+        "Content Approval Rate": "95%",
+        "Content Output": "10x increase",
+        "Brand Consistency": "98% score"
+      }
+    },
+    {
+      "id": "analytics-dashboard",
+      "title": "Real-Time Analytics",
+      "category": "Web",
+      "logo": "/placeholder.svg?height=40&width=40",
+      "outcome": "Enabled data-driven decisions resulting in 25% revenue increase",
+      "kpis": ["Sub-second updates", "+25% revenue"],
+      "technologies": ["React", "D3.js", "WebSocket"],
+      "image": "/placeholder.svg?height=270&width=480",
+      "links": {
+        "caseStudy": "/portfolio/analytics-dashboard",
+        "live": "https://example.com"
+      },
+      "problem": "Company lacked real-time insights into business performance across multiple channels",
+      "approach": "Built real-time dashboard with WebSocket connections, custom D3.js visualizations, and automated reporting using ClickHouse for fast queries.",
+      "metrics": {
+        "Update Speed": "Sub-second",
+        "KPIs Tracked": "25+",
+        "Revenue Growth": "+25%",
+        "Decision Speed": "5x faster"
+      }
+    },
+    {
+      "id": "wordpress-site",
+      "title": "Custom WordPress Site",
+      "category": "WordPress",
+      "logo": "/placeholder.svg?height=40&width=40",
+      "outcome": "Delivered high-performance WordPress site with custom blocks",
+      "kpis": ["95+ PageSpeed", "Custom blocks"],
+      "technologies": ["WordPress", "PHP", "ACF"],
+      "image": "/placeholder.svg?height=270&width=480",
+      "links": {
+        "caseStudy": "/portfolio/wordpress-site",
+        "live": "https://example.com"
+      },
+      "problem": "Client needed a custom WordPress solution with advanced functionality and optimal performance",
+      "approach": "Built custom theme with Gutenberg blocks, optimized for Core Web Vitals, and integrated advanced custom fields.",
+      "metrics": {
+        "PageSpeed Score": "95+",
+        "Load Time": "1.2s",
+        "Custom Blocks": "12",
+        "SEO Score": "100/100"
+      }
+    }
+  ],
+  "pricing": [
+    {
+      "name": "Hourly Rate",
+      "description": "Perfect for small tasks and ongoing maintenance",
+      "price": "$75",
+      "period": "/hour",
+      "popular": false,
+      "differentiator": "Flexible scheduling with no minimum commitment",
+      "features": [
+        "Flexible scheduling",
+        "No minimum commitment",
+        "Direct communication",
+        "Quick turnaround",
+        "Code reviews included"
+      ],
+      "cta": "Book Hours"
+    },
+    {
+      "name": "Project-Based",
+      "description": "Best value for complete applications and websites",
+      "price": "Custom",
+      "period": "quote",
+      "popular": true,
+      "differentiator": "Fixed-price guarantee with complete ownership",
+      "features": [
+        "Fixed-price guarantee",
+        "Detailed project planning",
+        "Complete documentation",
+        "Testing & QA included",
+        "30-day support included"
+      ],
+      "cta": "Get Quote"
+    },
+    {
+      "name": "Retainer",
+      "description": "Ongoing partnership for continuous development",
+      "price": "$5,000",
+      "period": "/month",
+      "popular": false,
+      "differentiator": "Dedicated development time with priority support",
+      "features": [
+        "Dedicated development time",
+        "Priority support",
+        "Strategic planning sessions",
+        "Performance monitoring",
+        "Monthly progress reports"
+      ],
+      "cta": "Start Partnership"
+    }
+  ],
+  "contact": {
+    "email": "hello@techgaintmonster.dev",
+    "platforms": [
+      {
+        "name": "Upwork",
+        "url": "https://upwork.com/freelancers/techgaintmonster",
+        "icon": "ExternalLink"
+      },
+      {
+        "name": "LinkedIn",
+        "url": "https://linkedin.com/company/techgaintmonster",
+        "icon": "Linkedin"
+      }
+    ]
+  }
+}
