@@ -210,19 +210,19 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
 
   if (!caseStudy) {
     return {
-      title: "Case Study Not Found - techgaint monster",
+      title: "Case Study Not Found - The 3developers",
     }
   }
 
   return {
-    title: `${caseStudy.title} Case Study - techgaint monster`,
+    title: `${caseStudy.title} Case Study - The 3developers`,
     description: caseStudy.subtitle,
     keywords: [caseStudy.category.toLowerCase(), "case study", "web development", "project results"],
     openGraph: {
       title: `${caseStudy.title} Case Study`,
       description: caseStudy.subtitle,
       url: `https://techgaintmonster.dev/case-studies/${params.slug}`,
-      siteName: "techgaint monster",
+      siteName: "The 3developers",
       images: [
         {
           url: caseStudy.heroImage,

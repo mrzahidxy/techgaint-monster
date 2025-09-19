@@ -30,10 +30,10 @@ export async function generateMetadata({ params }: CaseStudyPageProps): Promise<
   }
 
   return {
-    title: `${project.title} Case Study - techgaint monster`,
+    title: `${project.title} Case Study - The 3developers`,
     description: project.outcome,
     openGraph: {
-      title: `${project.title} Case Study - techgaint monster`,
+      title: `${project.title} Case Study - The 3developers`,
       description: project.outcome,
       images: [project.image],
     },

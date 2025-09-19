@@ -2,10 +2,10 @@ import type { Metadata } from "next"
 import PortfolioClientPage from "./PortfolioClientPage"
 
 export const metadata: Metadata = {
-  title: "Portfolio - techgaint monster",
+  title: "Portfolio - The 3developers",
   description: "Explore our portfolio of successful web, mobile, and AI projects with measurable business impact.",
   openGraph: {
-    title: "Portfolio - techgaint monster",
+    title: "Portfolio - The 3developers",
     description: "Explore our portfolio of successful web, mobile, and AI projects with measurable business impact.",
   },
 }

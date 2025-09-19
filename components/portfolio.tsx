@@ -6,112 +6,14 @@ import { Briefcase } from "lucide-react"
 import { motion } from "framer-motion"
 import { ProjectCard } from "./project-card"
 import { FilterPills } from "./filter-pills"
-
-const projects = [
-  {
-    id: "ecommerce-platform",
-    title: "E-Commerce Platform",
-    category: "Web",
-    logo: "/placeholder.svg?height=40&width=40",
-    outcome: "Increased conversion rates by 300% with sub-second page loads",
-    kpis: ["+300% conversion", "50% faster TTFB"],
-    technologies: ["Next.js", "PostgreSQL", "Stripe"],
-    image: "/placeholder.svg?height=270&width=480",
-    video: null,
-    links: {
-      caseStudy: "/case-studies/ecommerce-platform",
-      live: "https://example.com",
-    },
-    problem: "Client needed a scalable e-commerce solution to handle 10k+ daily visitors with fast checkout",
-    approach:
-      "Built with Next.js 14, PostgreSQL for data integrity, and Redis for caching. Implemented Stripe for payments and AI-powered product recommendations.",
-    metrics: {
-      "Conversion Rate": "+300%",
-      "Page Load Time": "50% faster",
-      "Daily Active Users": "10,000+",
-      "Cart Abandonment": "-45%",
-    },
-  },
-  {
-    id: "ai-content-generator",
-    title: "AI Content Generator",
-    category: "AI",
-    logo: "/placeholder.svg?height=40&width=40",
-    outcome: "Reduced content creation time by 90% while maintaining brand consistency",
-    kpis: ["90% time saved", "95% approval rate"],
-    technologies: ["React", "OpenAI", "LangChain"],
-    image: "/placeholder.svg?height=270&width=480",
-    video: null,
-    links: {
-      caseStudy: "/case-studies/ai-content-generator",
-      live: "https://example.com",
-    },
-    problem: "Marketing team spent 20+ hours weekly creating content manually with inconsistent brand voice",
-    approach:
-      "Developed AI-powered tool with custom GPT fine-tuning for brand voice, automated workflows, and content approval system.",
-    metrics: {
-      "Time Savings": "90%",
-      "Content Approval Rate": "95%",
-      "Content Output": "10x increase",
-      "Brand Consistency": "98% score",
-    },
-  },
-  {
-    id: "analytics-dashboard",
-    title: "Real-Time Analytics",
-    category: "Web",
-    logo: "/placeholder.svg?height=40&width=40",
-    outcome: "Enabled data-driven decisions resulting in 25% revenue increase",
-    kpis: ["Sub-second updates", "+25% revenue"],
-    technologies: ["React", "D3.js", "WebSocket"],
-    image: "/placeholder.svg?height=270&width=480",
-    video: null,
-    links: {
-      caseStudy: "/case-studies/analytics-dashboard",
-      live: "https://example.com",
-    },
-    problem: "Company lacked real-time insights into business performance across multiple channels",
-    approach:
-      "Built real-time dashboard with WebSocket connections, custom D3.js visualizations, and automated reporting using ClickHouse for fast queries.",
-    metrics: {
-      "Update Speed": "Sub-second",
-      "KPIs Tracked": "25+",
-      "Revenue Growth": "+25%",
-      "Decision Speed": "5x faster",
-    },
-  },
-  {
-    id: "wordpress-site",
-    title: "Custom WordPress Site",
-    category: "WordPress",
-    logo: "/placeholder.svg?height=40&width=40",
-    outcome: "Delivered high-performance WordPress site with custom blocks",
-    kpis: ["95+ PageSpeed", "Custom blocks"],
-    technologies: ["WordPress", "PHP", "ACF"],
-    image: "/placeholder.svg?height=270&width=480",
-    video: null,
-    links: {
-      caseStudy: "/case-studies/wordpress-site",
-      live: "https://example.com",
-    },
-    problem: "Client needed a custom WordPress solution with advanced functionality and optimal performance",
-    approach:
-      "Built custom theme with Gutenberg blocks, optimized for Core Web Vitals, and integrated advanced custom fields.",
-    metrics: {
-      "PageSpeed Score": "95+",
-      "Load Time": "1.2s",
-      "Custom Blocks": "12",
-      "SEO Score": "100/100",
-    },
-  },
-]
+import siteData from "@/content/site.json"
 
 const categories = ["All", "Web", "AI", "WordPress"]
 
 export default function Portfolio() {
   const [activeFilter, setActiveFilter] = useState("All")
 
-  const filteredProjects = projects.filter((project) => activeFilter === "All" || project.category === activeFilter)
+  const filteredProjects = siteData?.projects?.slice(0, 6).filter((project) => activeFilter === "All" || project.category === activeFilter)
 
   const scrollToContact = () => {
     document.getElementById("contact")?.scrollIntoView({ behavior: "smooth" })

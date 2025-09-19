@@ -1,6 +1,6 @@
 {
   "brand": {
-    "name": "techgaint monster",
+    "name": "The 3developers",
     "monogram": "tm",
     "tagline": "Full-Stack Solutions for Every Need",
     "description": "We're a passionate team of developers creating scalable, innovative solutions that help businesses thrive in the digital world."
@@ -31,21 +31,21 @@
       "icon": "Brain",
       "title": "AI & Automation",
       "description": "Intelligent solutions that automate workflows and enhance UX.",
-      "technologies": ["OpenAI", "LangChain", "Pinecone"],
+      "technologies": ["OpenAI", "LangChain"],
       "color": "text-orange-500"
     },
     {
       "icon": "Smartphone",
       "title": "Mobile Development",
       "description": "Cross-platform mobile applications with native performance.",
-      "technologies": ["React Native", "PWA", "Flutter"],
+      "technologies": ["React Native", "PWA"],
       "color": "text-pink-500"
     },
     {
       "icon": "Code",
       "title": "WordPress Development",
       "description": "Custom themes, blocks, and performance-focused builds.",
-      "technologies": ["WordPress", "PHP", "ACF"],
+      "technologies": ["WordPress", "PHP"],
       "color": "text-indigo-500"
     },
     {
@@ -58,21 +58,9 @@
   ],
   "team": [
     {
-      "name": "Ismail Hossen",
-      "role": "Web & App Developer",
-      "bio": "Passionate about creating scalable solutions with modern technologies. Specializes in React, NextJS, React Native",
-      "image": "/placeholder.svg?height=300&width=300",
-      "skills": ["React", "React Native", "TypeScript"],
-      "social": {
-        "github": "https://github.com/ismailhossen",
-        "linkedin": "https://linkedin.com/in/ismailhossen",
-        "email": "ismail@example.com"
-      }
-    },
-    {
       "name": "Md Mehedi Hasan",
       "role": "Full-stack Developer",
-      "bio": "Database and API expert focused on building robust, scalable backend systems that power modern application and also Specializes AI integration.",
+      "bio": "Backend expert in databases & APIs, specializing in AI integration with strong deployment skills for scalable apps.",
       "image": "/placeholder.svg?height=300&width=300",
       "skills": ["React", "Node", "Python", "System Design"],
       "social": {
@@ -82,9 +70,21 @@
       }
     },
     {
+      "name": "Ismail Hossen",
+      "role": "Web & App Developer",
+      "bio": "Passionate about building scalable web & mobile apps with modern technologies. Skilled in React, Next.js & React Native.",
+      "image": "/placeholder.svg?height=300&width=300",
+      "skills": ["React", "React Native", "TypeScript"],
+      "social": {
+        "github": "https://github.com/ismailhossen",
+        "linkedin": "https://linkedin.com/in/ismailhossen",
+        "email": "ismail@example.com"
+      }
+    },
+    {
       "name": "Md Zahid Hasan",
       "role": "Full-stack Developer",
-      "bio": "Passionate about creating scalable solutions with modern technologies. Specializes in React, Node.js",
+      "bio": "Committed to building scalable solutions with modern tech. Skilled in  PostgreSQL, Express, React & Node.js",
       "image": "/placeholder.svg?height=300&width=300",
       "skills": ["Python", "Django", "PostgreSQL", "AWS", "DevOps"],
       "social": {
@@ -239,13 +239,13 @@
     "platforms": [
       {
         "name": "Upwork",
-        "url": "https://upwork.com/freelancers/techgaintmonster",
-        "icon": "ExternalLink"
+        "url": "https://www.upwork.com/freelancers/~014c897d9b4fd4bac1",
+        "icon": "Up"
       },
       {
         "name": "LinkedIn",
-        "url": "https://linkedin.com/company/techgaintmonster",
-        "icon": "Linkedin"
+        "url": "https://www.linkedin.com/in/mrzahidxy",
+        "icon": "In"
       }
     ]
   }

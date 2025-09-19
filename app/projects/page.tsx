@@ -7,28 +7,28 @@ import { ArrowLeft } from "lucide-react"
 import Link from "next/link"
 
 export const metadata: Metadata = {
-  title: "Projects - techgaint monster",
+  title: "Projects - The 3developers",
   description:
     "Explore our portfolio of successful web, mobile, and AI projects. Over 50 projects delivered with measurable business impact.",
   keywords: ["portfolio", "projects", "web development", "AI solutions", "case studies"],
   openGraph: {
-    title: "Projects - techgaint monster",
+    title: "Projects - The 3developers",
     description: "Explore our portfolio of successful web, mobile, and AI projects.",
     url: "https://techgaintmonster.dev/projects",
-    siteName: "techgaint monster",
+    siteName: "The 3developers",
     images: [
       {
         url: "/og-projects.jpg",
         width: 1200,
         height: 630,
-        alt: "techgaint monster Projects Portfolio",
+        alt: "The 3developers Projects Portfolio",
       },
     ],
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Projects - techgaint monster",
+    title: "Projects - The 3developers",
     description: "Explore our portfolio of successful web, mobile, and AI projects.",
     images: ["/og-projects.jpg"],
   },

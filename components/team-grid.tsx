@@ -122,11 +122,11 @@ export default function TeamGrid() {
             <h3 className="text-2xl font-bold mb-8">Our Collective Expertise</h3>
             <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
               <div>
-                <div className="text-3xl font-bold text-accent mb-2">15+</div>
+                <div className="text-3xl font-bold text-accent mb-2">10+</div>
                 <div className="text-sm text-muted-foreground">Years Combined Experience</div>
               </div>
               <div>
-                <div className="text-3xl font-bold text-accent mb-2">100+</div>
+                <div className="text-3xl font-bold text-accent mb-2">10+</div>
                 <div className="text-sm text-muted-foreground">Projects Completed</div>
               </div>
               <div>

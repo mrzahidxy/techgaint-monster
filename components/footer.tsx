@@ -58,7 +58,7 @@ export default function Footer() {
     <footer className="bg-primary text-primary-foreground">
       <div className="container mx-auto px-4">
         {/* Newsletter Section */}
-        <motion.div
+        {/* <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
@@ -85,7 +85,7 @@ export default function Footer() {
               </Button>
             </div>
           </div>
-        </motion.div>
+        </motion.div> */}
 
         {/* Main Footer Content */}
         <div className="py-16">
@@ -100,7 +100,7 @@ export default function Footer() {
             >
               <div className="flex items-center gap-2 mb-6">
                 <Code2 className="w-8 h-8 text-accent" />
-                <span className="text-xl font-bold">Techgaint Monster</span>
+                <span className="text-xl font-bold">The 3developers</span>
               </div>
               <p className="text-primary-foreground/80 mb-6 leading-relaxed">
                 We're a passionate team of developers creating scalable,
@@ -223,7 +223,7 @@ export default function Footer() {
         >
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <p className="text-primary-foreground/60 text-sm">
-              © 2024 techgaint monster Development. All rights reserved.
+              © 2024 The 3developers Development. All rights reserved.
             </p>
             <div className="flex items-center gap-6 text-sm">
               <span className="text-primary-foreground/60">

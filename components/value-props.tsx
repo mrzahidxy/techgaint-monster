@@ -35,10 +35,10 @@ const valueProps = [
 ]
 
 const stats = [
-  { number: "48h", label: "Average Response Time" },
-  { number: "99.9%", label: "Uptime Guarantee" },
-  { number: "30+", label: "Technologies Mastered" },
-  { number: "5★", label: "Client Rating" },
+  { number: "24h", label: "Average Response Time" },
+  { number: "90%", label: "Uptime Guarantee" },
+  { number: "20+", label: "Technologies Mastered" },
+  { number: "4.5★", label: "Client Rating" },
 ]
 
 export default function ValueProps() {

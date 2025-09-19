@@ -10,7 +10,7 @@ import ContactForm from "@/components/contact-form"
 import Footer from "@/components/footer"
 
 export const metadata: Metadata = {
-  title: "techgaint monster - Full-Stack Development & AI Solutions",
+  title: "The 3developers - Full-Stack Development & AI Solutions",
   description:
     "Professional freelancing team led by Ismail Hossen. Scalable web, mobile, and AI solutions with React/Next.js, Node/Django, and AI automation.",
   keywords: [
@@ -25,18 +25,18 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: "Ismail Hossen" }],
   creator: "Ismail Hossen",
-  publisher: "techgaint monster",
+  publisher: "The 3developers",
   openGraph: {
-    title: "techgaint monster - Full-Stack Development & AI Solutions",
+    title: "The 3developers - Full-Stack Development & AI Solutions",
     description: "Professional freelancing team offering scalable web, mobile, and AI solutions.",
     url: "https://techgaintmonster.dev",
-    siteName: "techgaint monster",
+    siteName: "The 3developers",
     images: [
       {
         url: "/og-image.jpg",
         width: 1200,
         height: 630,
-        alt: "techgaint monster Development Team",
+        alt: "The 3developers Development Team",
       },
     ],
     locale: "en_US",
@@ -44,7 +44,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "techgaint monster - Full-Stack Development & AI Solutions",
+    title: "The 3developers - Full-Stack Development & AI Solutions",
     description: "Professional freelancing team offering scalable web, mobile, and AI solutions.",
     images: ["/og-image.jpg"],
   },
