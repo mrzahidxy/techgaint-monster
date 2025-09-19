@@ -1,4 +1,4 @@
-"use client"
+﻿"use client"
 
 import { Briefcase, ArrowLeft } from "lucide-react"
 import Link from "next/link"
@@ -60,7 +60,7 @@ export default function PortfolioClientPage() {
             <div className="bg-accent/5 rounded-2xl p-8 md:p-12 max-w-4xl mx-auto">
               <h2 className="text-2xl md:text-3xl font-bold mb-4">Ready to Start Your Project?</h2>
               <p className="text-foreground/80 mb-8 max-w-2xl mx-auto">
-                Let's discuss how we can help transform your ideas into successful digital solutions with measurable
+                Let&apos;s discuss how we can help transform your ideas into successful digital solutions with measurable
                 results.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -82,3 +82,4 @@ export default function PortfolioClientPage() {
     </div>
   )
 }
+

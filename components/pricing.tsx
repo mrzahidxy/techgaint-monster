@@ -1,4 +1,4 @@
-"use client"
+﻿"use client"
 
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
@@ -113,7 +113,7 @@ export default function Pricing() {
           <h3 className="text-2xl font-bold text-center mb-8">Frequently Asked Questions</h3>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
             <div>
-              <h4 className="font-semibold mb-2">What's included in project-based pricing?</h4>
+              <h4 className="font-semibold mb-2">What&apos;s included in project-based pricing?</h4>
               <p className="text-sm text-muted-foreground leading-relaxed">
                 Complete development, testing, documentation, deployment assistance, and 30 days of support.
               </p>
@@ -130,3 +130,4 @@ export default function Pricing() {
     </section>
   )
 }
+

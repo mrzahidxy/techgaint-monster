@@ -1,4 +1,4 @@
-import type { Metadata } from "next"
+﻿import type { Metadata } from "next"
 import { notFound } from "next/navigation"
 import { ArrowLeft, ExternalLink, CheckCircle } from "lucide-react"
 import Link from "next/link"
@@ -229,7 +229,7 @@ export default function CaseStudyPage({ params }: CaseStudyPageProps) {
           <div className="max-w-4xl mx-auto text-center">
             <h2 className="text-2xl md:text-3xl font-bold mb-4">Ready to Achieve Similar Results?</h2>
             <p className="text-muted-foreground mb-8 max-w-2xl mx-auto">
-              Let's discuss how we can help you build a solution that drives measurable business impact.
+              Let&apos;s discuss how we can help you build a solution that drives measurable business impact.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link href="/#contact">
@@ -249,3 +249,4 @@ export default function CaseStudyPage({ params }: CaseStudyPageProps) {
     </div>
   )
 }
+

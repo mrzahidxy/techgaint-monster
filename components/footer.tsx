@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -103,7 +103,7 @@ export default function Footer() {
                 <span className="text-xl font-bold">The 3developers</span>
               </div>
               <p className="text-primary-foreground/80 mb-6 leading-relaxed">
-                We're a passionate team of developers creating scalable,
+                We&apos;re a passionate team of developers creating scalable,
                 innovative solutions that help businesses thrive in the digital
                 world.
               </p>
@@ -223,11 +223,11 @@ export default function Footer() {
         >
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <p className="text-primary-foreground/60 text-sm">
-              © 2024 The 3developers Development. All rights reserved.
+              Â© 2024 The 3developers Development. All rights reserved.
             </p>
             <div className="flex items-center gap-6 text-sm">
               <span className="text-primary-foreground/60">
-                Built with ❤️ using Next.js & Tailwind CSS
+                Built with â¤ï¸ using Next.js & Tailwind CSS
               </span>
               <div className="flex items-center gap-2">
                 <div className="w-2 h-2 rounded-full bg-green-500"></div>
@@ -242,3 +242,4 @@ export default function Footer() {
     </footer>
   );
 }
+

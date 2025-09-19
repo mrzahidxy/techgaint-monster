@@ -1,4 +1,4 @@
-import type { Metadata } from "next"
+﻿import type { Metadata } from "next"
 import { notFound } from "next/navigation"
 import Image from "next/image"
 import Link from "next/link"
@@ -331,7 +331,7 @@ export default function CaseStudyPage({ params }: PageProps) {
         </div>
       </section>
 
-      {/* Problem → Approach → Outcome Blocks */}
+      {/* Problem â†’ Approach â†’ Outcome Blocks */}
       <section className="container mx-auto px-4 mb-16">
         <div className="space-y-16">
           {/* Problem */}
@@ -416,7 +416,7 @@ export default function CaseStudyPage({ params }: PageProps) {
         <section className="container mx-auto px-4 mb-16">
           <Card className="bg-accent/5 border-accent/20">
             <CardContent className="p-8 text-center">
-              <blockquote className="text-xl font-medium text-balance mb-6">"{caseStudy.testimonial.quote}"</blockquote>
+              <blockquote className="text-xl font-medium text-balance mb-6">&ldquo;{caseStudy.testimonial.quote}&rdquo;</blockquote>
               <div>
                 <div className="font-semibold">{caseStudy.testimonial.author}</div>
                 <div className="text-sm text-muted-foreground">{caseStudy.testimonial.role}</div>
@@ -431,3 +431,4 @@ export default function CaseStudyPage({ params }: PageProps) {
     </CaseStudyLayout>
   )
 }
+

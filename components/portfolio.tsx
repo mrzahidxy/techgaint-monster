@@ -1,4 +1,4 @@
-"use client"
+﻿"use client"
 
 import { useState } from "react"
 import { Button } from "@/components/ui/button"
@@ -65,7 +65,7 @@ export default function Portfolio() {
           <div className="bg-accent/5 rounded-2xl p-8 md:p-12">
             <h3 className="text-2xl md:text-3xl font-bold mb-4">Start Your Project</h3>
             <p className="text-foreground/80 mb-8 max-w-2xl mx-auto">
-              Let's discuss how we can help transform your ideas into successful digital solutions.
+              Let&apos;s discuss how we can help transform your ideas into successful digital solutions.
             </p>
             <Button size="lg" onClick={scrollToContact} className="bg-accent hover:bg-accent/90">
               Start your project
@@ -76,3 +76,4 @@ export default function Portfolio() {
     </section>
   )
 }
+

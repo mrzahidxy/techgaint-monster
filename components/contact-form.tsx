@@ -1,4 +1,4 @@
-"use client"
+﻿"use client"
 
 import type React from "react"
 
@@ -44,10 +44,10 @@ export default function ContactForm() {
             Get In Touch
           </div>
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-balance mb-6">
-            Let's Build Something <span className="text-accent">Amazing Together</span>
+            Let&apos;s Build Something <span className="text-accent">Amazing Together</span>
           </h2>
           <p className="text-xl text-muted-foreground text-pretty max-w-3xl mx-auto">
-            Ready to transform your ideas into reality? Get in touch and let's discuss your project.
+            Ready to transform your ideas into reality? Get in touch and Let&apos;s discuss your project.
           </p>
         </motion.div>
 
@@ -70,7 +70,7 @@ export default function ContactForm() {
                   <div>
                     <h4 className="font-semibold mb-1">Email</h4>
                     <p className="text-muted-foreground">{siteData.contact.email}</p>
-                    <p className="text-sm text-muted-foreground">We'll respond within 24 hours</p>
+                    <p className="text-sm text-muted-foreground">We&apos;ll respond within 24 hours</p>
                   </div>
                 </div>
 
@@ -118,7 +118,7 @@ export default function ContactForm() {
                     <Star className="w-4 h-4 text-accent" />
                     <span className="text-sm font-medium">Client Satisfaction</span>
                   </div>
-                  <span className="text-sm font-bold text-accent">5/5 ⭐</span>
+                  <span className="text-sm font-bold text-accent">5/5 â­</span>
                 </div>
                 <div className="flex items-center justify-between">
                   <div className="flex items-center gap-3">
@@ -143,7 +143,7 @@ export default function ContactForm() {
               <CardHeader>
                 <CardTitle className="text-2xl">Contact</CardTitle>
                 <CardDescription className="text-muted-foreground leading-relaxed">
-                  Fill out the form below and we'll get back to you within 24 hours with a detailed proposal.
+                  Fill out the form below and We&apos;ll get back to you within 24 hours with a detailed proposal.
                 </CardDescription>
               </CardHeader>
               <CardContent>
@@ -245,7 +245,7 @@ export default function ContactForm() {
                     </div>
                     <h3 className="text-xl font-bold mb-2">Message Sent Successfully!</h3>
                     <p className="text-muted-foreground mb-6 leading-relaxed max-w-md mx-auto">
-                      Thank you for reaching out. We'll review your project details and get back to you within 24 hours
+                      Thank you for reaching out. We&apos;ll review your project details and get back to you within 24 hours
                       with a detailed proposal.
                     </p>
                     <Button
@@ -265,3 +265,4 @@ export default function ContactForm() {
     </section>
   )
 }
+

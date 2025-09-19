@@ -1,4 +1,4 @@
-"use client"
+﻿"use client"
 
 import { Card, CardContent } from "@/components/ui/card"
 import { Shield, Zap, Code, Rocket, CheckCircle } from "lucide-react"
@@ -9,7 +9,7 @@ const valueProps = [
     icon: Code,
     title: "Clean, Maintainable Code",
     description:
-      "We write code that's not just functional, but also readable, testable, and easy to maintain for long-term success.",
+      "We write code that&apos;s not just functional, but also readable, testable, and easy to maintain for long-term success.",
     features: ["Best Practices", "Code Reviews", "Documentation", "Testing"],
   },
   {
@@ -38,7 +38,7 @@ const stats = [
   { number: "24h", label: "Average Response Time" },
   { number: "90%", label: "Uptime Guarantee" },
   { number: "20+", label: "Technologies Mastered" },
-  { number: "4.5★", label: "Client Rating" },
+  { number: "4.5â˜…", label: "Client Rating" },
 ]
 
 export default function ValueProps() {
@@ -61,7 +61,7 @@ export default function ValueProps() {
             <span className="text-accent">Reliability</span>
           </h2>
           <p className="text-xl text-muted-foreground text-pretty max-w-3xl mx-auto">
-            We don't just build applications—we craft solutions that stand the test of time, scale with your growth, and
+            We don&apos;t just build applicationsâ€”we craft solutions that stand the test of time, scale with your growth, and
             deliver exceptional user experiences.
           </p>
         </motion.div>
@@ -138,3 +138,4 @@ export default function ValueProps() {
     </section>
   )
 }
+
